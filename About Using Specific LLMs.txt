@@ -1,0 +1,53 @@
+https://gemini.google.com/app/b4466d13e8d8b47c [Other LLMs rather than T5, that used for Q/A's]
+
+In my case, I basically need an Q/A's 
+that detect key words, of pair of words or sentences, 
+On the basis of that, return 18-20 Customized Answers.
+
+Is there any LLMs are available that could be best fit for this scenario 
+Show drafts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Several LLMs could be a good fit for your e-commerce Q&A scenario, depending on your specific needs and priorities. Here are some options to consider:
+
+Large Language Models (LLMs):
+
+Llama 2: Can understand complex questions and generate different creative text formats. However, it requires fine-tuning and might be overkill for simpler Q&A tasks.
+T5-QnA (Google): Specifically designed for question answering, offering pre-trained models on question-answer datasets.
+BART-QA (Facebook): Similar to T5-QnA, focusing on factual question answering with good performance.
+Jurassic-1 Jumbo (AI21 Labs): Large LLM known for its factual language understanding and reasoning abilities. Might be suitable for complex product-related questions.
+Considerations when choosing an LLM:
+
+Complexity of questions: If you expect mainly simple keyword-based questions, a pre-trained Q&A model like T5-QnA or BART-QA might suffice. For more intricate or open-ended inquiries, consider Jurassic-1 Jumbo or a fine-tuned Llama 2.
+Data volume and quality: Fine-tuning LLMs like Llama 2 typically requires larger and well-curated datasets. Assess your available data and its suitability for fine-tuning.
+Technical expertise: Implementing and fine-tuning LLMs require expertise in NLP and machine learning. Evaluate your team's capabilities or consider managed services if needed.
+Explainability and bias: It's crucial to monitor LLM responses for potential biases and ensure they align with your brand voice and ethical considerations.
+Alternatives to LLMs:
+
+Pre-built Q&A solutions: Tools like Zendesk Answer Bot or Askava offer ready-made functionality and can be easier to set up than using LLMs directly.
+Hybrid approach: Combine keyword matching with a smaller LLM trained on your specific question-answer dataset. This offers a balance between efficiency and handling complex questions.
+Remember, the best choice depends on your specific context and priorities. Experiment with different options and carefully evaluate their performance and ease of implementation before making a decision.
+
+
+
+
+Can T5 for Generative Question Answering
+Is able to take my input and generate me output, What I demand?
+
+ChatGPT
+Yes, T5 (Text-To-Text Transfer Transformer) can be used for generative question answering. It takes input in the form of a text prompt and generates output based on the task defined in the prompt. You can specify your desired output format and content within the input prompt, and T5 will attempt to generate relevant responses. However, the quality and accuracy of the output depend on various factors such as the training data, fine-tuning, and the complexity of the task.
